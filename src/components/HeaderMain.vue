@@ -1,8 +1,8 @@
 <template>
     <header>
-        <img src="@/assets/netflix-logo.png" alt="">
+        <img src="@/assets/netflix-logo.svg" alt="">
         <div class="header__wrapper">
-            <img src="@/assets/share.png" alt="">
+            <img src="@/assets/share.svg" alt="">
             <img src="@/assets/profile.jpeg" alt="" class="profile">
         </div>
     </header>
@@ -14,7 +14,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 0 12px;
-        margin-top: 52px;
+        margin-top: 32px;
         position: absolute;
         top: 0;
         left: 0;

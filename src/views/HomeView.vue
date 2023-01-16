@@ -8,6 +8,7 @@ import NavbarTop from '@/components/NavbarTop.vue'
 
 <template>
   <main>
+    <video src="@/assets/cover-video.mp4" loop muted autoplay></video>
     <img src="@/assets/cover.jpeg" alt="" class="cover__main">
     <HeaderMain />
     <NavbarTop />

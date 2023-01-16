@@ -12,9 +12,9 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 0 12px;
-    margin-top: 52px;
+    margin-top: 42px;
     position: absolute;
-    gap: 32px;
+    gap: 38px;
     top: 52px;
     left: 0;
     width: 100%;
