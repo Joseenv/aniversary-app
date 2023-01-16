@@ -8,7 +8,7 @@ import NavbarTop from '@/components/NavbarTop.vue'
 
 <template>
   <main>
-    <img src="@/assets/cover.png" alt="" class="cover__main">
+    <img src="@/assets/cover.jpeg" alt="" class="cover__main">
     <HeaderMain />
     <NavbarTop />
   </main>
@@ -21,5 +21,7 @@ main {
 .cover__main {
   top: 0;
   left: 0;
+  width: 375px;
+  object-fit: cover;
 }
 </style>

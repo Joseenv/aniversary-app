@@ -3,7 +3,7 @@
         <img src="@/assets/netflix-logo.png" alt="">
         <div class="header__wrapper">
             <img src="@/assets/share.png" alt="">
-            <img src="@/assets/profile.png" alt="">
+            <img src="@/assets/profile.jpeg" alt="" class="profile">
         </div>
     </header>
 </template>
@@ -27,5 +27,10 @@
         align-items: center;
         gap: 1rem;
         width: 10rem;
+    }
+    .profile {
+        width: 24px;
+        height: 24px;
+        object-fit: cover;
     }
 </style>
