@@ -19,5 +19,6 @@ nav {
     left: 0;
     width: 100%;
     color: #fff;
+    font-size: 16px;
 }
 </style>

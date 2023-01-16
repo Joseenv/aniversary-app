@@ -1,6 +1,9 @@
 <script setup>
 import HeaderMain from '@/components/HeaderMain.vue'
 import NavbarTop from '@/components/NavbarTop.vue'
+import Handler from '@/components/Handler.vue'
+import Carrusel from '@/components/Carrusel.vue'
+import Carrusel2 from '@/components/Carrusel2.vue'
 </script>
 
 <script setup>
@@ -8,10 +11,12 @@ import NavbarTop from '@/components/NavbarTop.vue'
 
 <template>
   <main>
-    <video src="@/assets/cover-video.mp4" loop muted autoplay></video>
     <img src="@/assets/cover.jpeg" alt="" class="cover__main">
     <HeaderMain />
     <NavbarTop />
+    <Handler/>
+    <Carrusel/>
+    <Carrusel2/>
   </main>
 </template>
 
